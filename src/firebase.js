@@ -8,14 +8,15 @@ import {
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  databaseURL: 'https://ecommerce-1b95c-default-rtdb.firebaseio.com',
-  apiKey: 'AIzaSyC7k4OUUIXx7VLOYfMs-RoHG94Xw0dd1hs',
-  authDomain: 'ecommerce-1b95c.firebaseapp.com',
-  projectId: 'ecommerce-1b95c',
-  storageBucket: 'ecommerce-1b95c.firebasestorage.app',
-  messagingSenderId: '1007919859901',
-  appId: '1:1007919859901:web:5d98e7aaa220dbc64d0fd4',
-  measurementId: 'G-088BWM5B3J',
+  databaseURL:
+    'https://duyhao-blog-default-rtdb.asia-southeast1.firebasedatabase.app/',
+  apiKey: 'AIzaSyD_hXcWQeIhZR2TH0CJMNNOH5Zx8FuYfUM',
+  authDomain: 'duyhao-blog.firebaseapp.com',
+  projectId: 'duyhao-blog',
+  storageBucket: 'duyhao-blog.appspot.com',
+  messagingSenderId: '357850292148',
+  appId: '1:357850292148:web:310a86edb96b13c2131ce1',
+  measurementId: 'G-HJJH',
 };
 
 if (!firebaseConfig) {
