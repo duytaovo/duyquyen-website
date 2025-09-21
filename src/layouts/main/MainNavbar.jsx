@@ -197,14 +197,14 @@ function MainNavbar({ categoryList, showCategoryMenu, cartItemsCount }) {
           <Box sx={{ mx: 3, flexGrow: 1 }}>
             <SearchBar />
           </Box>
-          {/* <Box sx={{ mx: 2, flexGrow: 1 }}>
+          <Box sx={{ mx: 2, flexGrow: 1 }}>
             <NavbarItem
               text={t('home.blog')}
               icon={blog24Regular}
               color="primary"
               href="/blog"
             />
-          </Box> */}
+          </Box>
 
           <Stack
             direction="row"
